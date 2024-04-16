@@ -55,6 +55,7 @@ dev = [
     "numpydoc",
     "ophyd",
     "pandas",
+    "pickleshare",
     "pims",
     "pipdeptree",
     "pre-commit",
