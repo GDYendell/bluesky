@@ -7,7 +7,7 @@ Plans
 A *plan* is bluesky's concept of an experimental procedure. A plan may be any
 iterable object (list, tuple, custom iterable class, ...) but most commonly it
 is implemented as a Python generator. For a more technical discussion we refer
-you :doc:`msg`.
+you :doc:`/developer/msg`.
 
 A variety of pre-assembled plans are provided. Like sandwiches on a deli menu,
 you can use our pre-assembled plans or assemble your own from the same

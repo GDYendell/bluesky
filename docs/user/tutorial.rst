@@ -1200,7 +1200,7 @@ Try printing out every message in a couple simple plans:
     for msg in count([det]):
         print(msg)
 
-See the :doc:`msg` section for more.
+See the :doc:`/developer/msg` section for more.
 
 Bluesky includes some tools for producing more useful, human-readable summaries
 to answer the question, "What will this plan do?"
@@ -1246,7 +1246,7 @@ used in data acquisition.
   instead **buffer their data externally** in separate hardware or software
   until it can be read out.
 
-Bluesky interacts with all devices via a :doc:`specified interface <hardware>`.
+Bluesky interacts with all devices via a :doc:`specified interface </developer/hardware>`.
 Each device is represented by a Python object with certain methods and
 attributes (with names like ``read`` and ``set``). Some of these methods are
 asynchronous, such as ``set``, which allows for the concurrent movement of

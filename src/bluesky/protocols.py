@@ -461,7 +461,7 @@ class Subscribable(HasName, Protocol):
         When the device has a new value ready, it should call ``function``
         with something that looks like the output of ``read()``.
 
-        Needed for :doc:`monitored <async>`.
+        Needed for :doc:`monitored </user/async>`.
         """
         ...
 

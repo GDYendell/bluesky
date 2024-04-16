@@ -195,7 +195,7 @@ located. Devices may implement ``locate()`` to provide this information.
 "Flyer" Interface
 +++++++++++++++++
 
-*For context on what we mean by "flyer", refer to the section on* :doc:`async`.
+*For context on what we mean by "flyer", refer to the section on* :doc:`/user/async`.
 
 The interface of a "flyable" device is separate from the interface of a readable
 or settable device, though there is some overlap.

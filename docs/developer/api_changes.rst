@@ -522,9 +522,9 @@ version of the callback.
 Features
 --------
 
-* Added support for :doc:`multi_run_plans`.
+* Added support for :doc:`/user/multi_run_plans`.
 * Added better logging and convenience functions for managing it more easily.
-  See :doc:`debugging`.
+  See :doc:`/user/debugging`.
 * Generalized :func:`~bluesky.plans.list_scan` to work on any number of motors,
   not just one. In v1.2.0, :func:`~bluesky.plans.scan` was generalized in the
   same way.
@@ -662,7 +662,7 @@ Features
   of a RunEngine instance.)
 * The RunEngine includes a human-readable, not-necessarily-unique ``scan_id``
   key in the RunStart document. The source of the ``scan_id`` is now pluggable
-  via a new parameter, ``scan_id_source``. See :doc:`run_engine_api` for
+  via a new parameter, ``scan_id_source``. See :doc:`/user/run_engine_api` for
   details.
 * The convenience function, :func:`bluesky.utils.ts_msg_hook` accepts new
   parameter ``file`` for directing the output to a file instead of the standard
@@ -822,7 +822,7 @@ Deprecations
 * The IPython "magics", always marked as experimental, have been reworked.
   Instead of relying on the singleton lists, ``BlueskyMagics.positioners`` and
   ``BlueskyMagics.detectors``, the magics now scrape the user namespace for
-  objects that implement the ``_ophyd_labels_`` interface. See :doc:`magics`
+  objects that implement the ``_ophyd_labels_`` interface. See :doc:`/user/magics`
   for the new usage. The magics will revert to their old behavior if the
   singleton lists are non-empty, but they will produce a warning. The old
   behavior will be removed in a future release.
@@ -833,7 +833,7 @@ v1.2.0 (2018-02-20)
 Features
 --------
 
-* Refreshed documentation with a new :doc:`tutorial` section.
+* Refreshed documentation with a new :doc:`/user/tutorial` section.
 * Extend :func:`.scan` and :func:`.rel_scan` to
   handle multiple motors, rendering :func:`.inner_product_scan` and
   :func:`relative_inner_product_scan` redundant.
@@ -1251,7 +1251,7 @@ Deprecations
 Features
 --------
 
-* A :doc:`progress bar <progress-bar>` add-on is available.
+* A :doc:`progress bar </user/progress-bar>` add-on is available.
 * As addressed above:
     * The new :ref:`supplemental data <supplemental_data>` feature make it
       easy to set up "baseline" readings and asynchronous acquisition in a way
@@ -1275,7 +1275,7 @@ Features
   visualizations. Additionally, the built-in examples devices have
   :ref:`a new hints attribute <hints>`. Its content may change or expand in
   future releases as this new feature is explored.
-* Some :doc:`IPython magics <magics>` mimicing the SPEC API have been added.
+* Some :doc:`IPython magics </user/magics>` mimicing the SPEC API have been added.
   These are experimental and may be altered or removed in the future.
 
 Bug Fixes

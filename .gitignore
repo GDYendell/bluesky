@@ -30,7 +30,7 @@ cover/*
 
 # Sphinx documentation
 docs/_build/
-docs/generated
+docs/user/generated
 
 # PyBuilder
 target/

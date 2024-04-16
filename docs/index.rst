@@ -22,7 +22,7 @@ and metadata. It emphasizes the following virtues:
 How to Use This Documentation
 -----------------------------
 
-Start with the :doc:`tutorial`. It's a good place to start for everyone, and it
+Start with the :doc:`/user/tutorial`. It's a good place to start for everyone, and it
 gives a good overview of the project in a narrative style. Read as far as you
 need to solve your problem, and come back again if your needs change. Each
 section of the tutorial adds a piece of complexity in exchange for deeper
@@ -36,38 +36,14 @@ Index
 -----
 
 .. toctree::
-   :caption: User Documentation
    :maxdepth: 1
 
-   tutorial
-   plans
-   documents
-   metadata
-   callbacks
-   state-machine
-   simulation
-   progress-bar
-   event_descriptors
-   async
-   multi_run_plans
-   debugging
-   run_engine_api
-   utils
-   magics
-   from-pyepics-to-bluesky
-   comparison-with-spec
-   hardware-interfaces
-   appendix
+   user/index
 
 .. toctree::
-   :caption: Developer Documentation
    :maxdepth: 1
 
-   hardware
-   msg
-   run_engine
-   api_changes
-   contributing
+   developer/index
 
 .. toctree::
    :hidden:
