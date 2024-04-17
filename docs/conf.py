@@ -181,6 +181,8 @@ html_theme_options = {
     },
     "check_switcher": False,
     "navbar_end": ["theme-switcher", "icon-links", "version-switcher"],
+    # Replace `search-button` and pop-up search field with static search field
+    "navbar_persistent": ["search-field.html"],
     # Ensure the toctrees created by autosummary directives are not visible in
     # left-panel navigation
     "navigation_depth": 1,
